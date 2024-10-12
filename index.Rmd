@@ -1,8 +1,8 @@
 ---
-title: "中文书模板"
-author: "李东风"
-date: "2022年1月5日"
-description: "这是用R的bookdown功能制作中文图书的模板，输出格式为bookdown::gitbook和bookdown::pdf_book."
+title: "R语言地理空间编程"
+author: "吕文博"
+date: "`r Sys.Date()`"
+description: "GeoSpatial Programing With R - Chinese (R语言地理空间编程中文版)"
 documentclass: book
 classoption: oneside
 biblio-style: apa
@@ -15,7 +15,6 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 # 简介 {-}
-
 
 R软件的bookdown扩展包是R Markdown的增强版，
 支持自动目录、文献索引、公式编号与引用、定理编号与引用、图表自动编号与引用等功能，

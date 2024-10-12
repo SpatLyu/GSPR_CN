@@ -2,6 +2,13 @@ bookdown::gitbook:
   includes:
     in_header: _header.html
   config:
+    toc:
+      collapse: subsection
+      scroll_highlight: yes
+      before: |
+        <li><a href="./">R语言地理空间编程</a></li>
+      after: |
+        <li><a href="https://bookdown.org" target="blank">本书由 bookdown 强力驱动</a></li>
     download: ["pdf"]
 bookdown::pdf_book:
   includes:
